@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--FontAwesome-->
+    <script
+      src="https://kit.fontawesome.com/0d8577ba8e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--BOOTSTRAP CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <!--BOOTSTRAP JS-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="src/style.css" />
+    <title>About Me Page</title>
+  </head>
+  <body>
+    <!--NAV BAR-->
+    <nav
+      class="navbar fixed-top navbar-expand-sm navbar-light"
+      style="background-color: #b6a7a1"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand disabled"
+          ><img
+            src="src/images/jr-logo.png"
+            alt=""
+            width="70"
+            height="70"
+            class="d-inline-block align-text-top rounded"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="src/resume-dev-pic.png" target="_blank"
+              >Resume</a
+            >
+            <a class="nav-link" href="about.html#contact">Contact</a>
+            <a
+              class="nav-link linkedInLink"
+              href="https://www.linkedin.com/in/jordanrobersonnp/"
+              rel="stylesheet"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              class="nav-link gitLink"
+              href="https://github.com/jordanroberson-codes"
+              rel="stylesheet"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--END OF NAV BAR-->
+    <div class="background">
+      <div class="buttons">
+        <button class="returnHome"><a href="index.html">HomePage</a></button>
+      </div>
+      <h1>About Me</h1>
+      <h2 class="title">
+        Front-End Developer from Daytona Beach, Florida U.S.A 🇺🇸
+      </h2>
+      <div class="row justify-content-center">
+        <div class="col-sm-4 d-flex flex-1">
+          <div class="column1">
+            <p class="aboutMeText">
+              My name is Jordan, and I am an aspiring fullstack developer. I am
+              actually an Adult Geriatric Nurse Practitioner who decided that
+              the tech industry was something I was passionate about
+              <em>plus they could use some more women </em>😜. I am currently
+              enrolled in SheCodes Pro Front End Development course and
+              Treehouse Tech Degree for fullstack development. My goal is to
+              eventually work for a startup tech company as a fullstack
+              developer and work in freelance as a front end developer as well!
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4 d-flex flex-1">
+          <div class="column2">
+            <section class="funFacts">
+              <span class="funFactsTitle">
+                Here's some fun facts about me!</span
+              >
+              <br />
+              <br />
+              <p id="fun-fact">
+                Click the button below to learn some fun facts about me!
+              </p>
+              <button id="show-fact">Show a new fact</button>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <img
+              src="https://31ukq.csb.app/images/yoga.png"
+              alt=""
+              class="img-fluid rounded border p-2 shadow"
+            />
+          </div>
+          <div class="col-sm-4">
+            <img
+              src="https://31ukq.csb.app/images/weather.png"
+              alt=""
+              class="img-fluid rounded border p-2 shadow"
+            />
+          </div>
+          <div class="col-sm-4">
+            <img
+              src="https://31ukq.csb.app/images/yogurt.png"
+              alt=""
+              class="img-fluid rounded border p-2 shadow"
+            />
+          </div>
+        </div>
+      </div>
+
+      <h3 class="contact">CONTACT ME</h3>
+      <div class="buttons">
+        <button class="email-btn">
+          <a id="contact" href="mailto:JordanRobersonNP@gmail.com">E-Mail Me</a>
+        </button>
+        <button class="resume-btn">
+          <a href="src/resume-dev-pic.png" target="_blank"
+            >Check Out My Resume</a
+          >
+        </button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

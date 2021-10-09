@@ -1,0 +1,123 @@
+/*UNIVERSAL*/
+:root {
+  --main-color: #b6a8a1;
+  --box-shadow: 2px 2px 2px 1px #5e5e5e;
+  --font-family: JetBrains Mono;
+  --accent-color: #96d8db;
+}
+
+h1,
+h3 {
+  text-align: center;
+  font-size: 5vw;
+  font-family: var(--font-family);
+  margin-top: 120px;
+  text-shadow: -1px 0 black, 0 0.5px black, 0.5px 0 black, 0 -1px black;
+  color: #96d8db;
+  font-weight: 700;
+}
+
+/* MAIN PAGE HTML */
+.pictureMe {
+  width: 20vw;
+  display: block;
+  margin: 60px auto;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-family: var(--font-family);
+}
+
+/*ABOUT ME HTML*/
+.title {
+  font-size: 30px;
+  color: var(--accent-color);
+  text-align: center;
+  font-family: var(--font-family);
+  padding-top: 5px;
+  text-shadow: -1px 0 black, 0 0.5px black, 0.5px 0 black, 0 -1px black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+button {
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #96d8db;
+  color: white;
+  margin: 20px;
+  box-shadow: var(--box-shadow);
+  width: 15vw;
+  height: auto;
+  font-family: var(--font-family);
+}
+button:hover {
+  transform: scale(1.3);
+}
+
+.contact {
+  text-align: center;
+  font-size: 60px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  /* font-size: 2vw; */
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper {
+  background-color: #5e5e5e;
+
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding: 20px;
+  color: var(--accent-color);
+}
+
+.returnHome {
+  border-radius: 15px;
+  padding: 15px;
+  background-color: var(--accent-color);
+  color: white;
+  margin: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.email {
+  text-align: center;
+  color: #b6a8a1;
+}
+
+.email a {
+  color: var(--main-color);
+  text-align: center;
+}
+
+.column1,
+.column2 {
+  background-color: var(--main-color);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 15px;
+  text-align: center;
+  font-family: var(--font-family);
+  color: black;
+}
+
+.column2 {
+  font-size: 25px;
+}
+
+.background {
+  background-color: #5e5e5e;
+  border-radius: 20px;
+  margin: 150px 60px;
+  padding: 60px;
+}
